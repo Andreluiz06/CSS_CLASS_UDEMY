@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+	<head>
+		<!-- Aula 9 sobre cor e imagem de fundo-->
+
+		<!--  -->
+		<title>cor e imagem de fundo</title>
+		<meta charset="utf-8">
+
+		<style type="text/css">
+		
+		/*.fundo{
+			background-color: black#f2f2f2;
+			color:white; 
+		}*/
+		body{
+
+				/*background-image: url('imagens/yoshi.png');*/
+
+				background-image: url('imagens/yoshi.png');
+
+				/* repeat-x, repeat-y, no-repeat, repeat */
+				background-repeat: repeat-x;
+
+				/*scrool , fixed*/
+				background-attachment: scroll;
+
+				/* 
+				primeiro valor: left, center, right 
+				segundo valor: top, center, bottom 
+				*/
+				background-position: center center;
+			}
+			.fundo{
+				background: blue url('imagens/yoshi.png') repeat-x;
+			}
+		
+
+		</style>
+	</head>
+	<body class="fundo">
+	<h1 >Conteudo De Titulo 1</h1>	
+	<p>
+		Há muitas variações de passagens de Lorem Ipsum disponíveis, mas a maioria sofreu alteração de alguma forma, por humor injetado, ou palavras aleatórias que não parecem nem um pouco críveis.
+	</p>
+
+	<p>
+		Há muitas variações de passagens de Lorem Ipsum disponíveis, mas a maioria sofreu alteração de alguma forma, por humor injetado, ou palavras aleatórias que não parecem nem um pouco críveis.
+	</p>	
+	</body>
+
+</html>
